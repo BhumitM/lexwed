@@ -1,0 +1,40 @@
+# LexWed Robots.txt
+# Allow search engines to crawl and index all pages
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.pdf$
+
+# Sitemap
+Sitemap: https://www.lexwed.com/sitemap.xml
+
+# Crawl delay (in seconds) - Allow faster crawling for major bots
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Priority pages to crawl first
+User-agent: Googlebot
+Allow: /$
+Allow: /about
+Allow: /services
+Allow: /contact
+Allow: /faqs
+Allow: /privacy-policy
+Allow: /disclaimer
+Allow: /refund-policy
