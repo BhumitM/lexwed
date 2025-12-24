@@ -54,10 +54,15 @@ export default function About() {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="About LexWed - Marriage Legal Services Provider in India"
-        description="Learn about LexWed's 7+ years of experience in marriage legalization and registration services. Founded in 2017, serving Delhi, Haryana, and Uttar Pradesh with trusted legal expertise."
-        keywords="about marriage legal services, marriage law expertise, professional advocates, legal consultation, marriage registration services"
+        title="About LexWed | Trusted Marriage Legal Services in India"
+        description="LexWed, founded in 2017, provides professional and trusted marriage legalization and registration services across Delhi, Haryana, and Uttar Pradesh. Learn about our mission, vision, and 7+ years of legal expertise."
+        keywords="LexWed, marriage legal services, marriage registration, legal consultancy India, marriage law experts"
         canonical="https://www.lexwed.com/about"
+        ogTitle="About LexWed - Trusted Marriage Legal Services in India"
+        ogDescription="Providing expert legal guidance for marriage legalization and registration in India since 2017. Discover LexWed's journey and core values."
+        ogUrl="https://www.lexwed.com/about"
+        ogType="website"
+        twitterCard="summary_large_image"
       />
       <Navigation />
 

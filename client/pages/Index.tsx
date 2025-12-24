@@ -50,22 +50,50 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO META TAGS */}
       <SEOHead
-        title="LexWed - Marriage Registration & Legal Services in Delhi, Haryana, UP"
-        description="Expert legal guidance for marriage registration, court marriage, and legalization. 7+ years experience serving thousands of couples. Fast, confidential, and affordable services across Delhi, Haryana, and Uttar Pradesh."
-        keywords="marriage registration Delhi, court marriage Haryana, marriage assistance UP, legal services, marriage certificate, Arya Samaj marriage, marriage registration online"
+        title="LexWed | Legal Services & Marriage Registration in India"
+        description="LexWed is a trusted legal services platform in India providing expert guidance for marriage registration, court marriage, and legal documentation."
         canonical="https://www.lexwed.com/"
-      />
+      >
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="eJFLOpnbGuhdA_b_osIGKqvAlxR19Ib0Pyh71ZEWM4g" />
+      </SEOHead>
+
       <Navigation />
       <Hero />
+
+      {/* SEO CONTENT BLOCK (CRITICAL FOR GOOGLE) */}
+      <section className="max-w-5xl mx-auto px-4 py-10">
+        <h1 className="text-3xl font-bold mb-4">
+          LexWed – Legal Services & Marriage Registration in India
+        </h1>
+
+        <p className="text-gray-700 leading-relaxed">
+          LexWed is a professional legal services platform in India dedicated to
+          helping couples with marriage registration, court marriage, and
+          related legal documentation. Our experienced legal team ensures a
+          smooth, confidential, and legally compliant process across major
+          Indian states.
+        </p>
+      </section>
+
       <TrustSection />
+
       <ServicesSection onServiceClick={handleServiceClick} />
+
       <HowItWorks />
+
       <WhyChoose />
+
       <Reviews />
+
       <BookingForm />
+
       <Footer />
+
       <FloatingWhatsApp />
+
       <ServiceModal
         service={currentService || null}
         isOpen={isModalOpen}

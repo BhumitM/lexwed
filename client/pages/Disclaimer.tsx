@@ -6,10 +6,15 @@ export default function Disclaimer() {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="Legal Disclaimer - LexWed Legal Services"
-        description="Important legal disclaimer for LexWed services. Understand limitations of our services and legal considerations for marriage registration."
-        keywords="legal disclaimer, terms and conditions, service limitations, legal notice"
+        title="Disclaimer | LexWed Legal Services for Marriage Registration"
+        description="Read the important legal disclaimer for LexWed services. Understand limitations, responsibilities, and legal considerations for marriage registration and related legal services in India."
+        keywords="LexWed disclaimer, legal disclaimer, marriage registration services, legal consultation India, service limitations"
         canonical="https://www.lexwed.com/disclaimer"
+        ogTitle="Disclaimer - LexWed Legal Services for Marriage Registration"
+        ogDescription="Important legal disclaimer for LexWed's marriage registration and legal consultation services. Know the scope, limitations, and responsibilities of our services."
+        ogUrl="https://www.lexwed.com/disclaimer"
+        ogType="website"
+        twitterCard="summary_large_image"
       />
       <Navigation />
 

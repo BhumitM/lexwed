@@ -1,20 +1,44 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useSearchParams } from "react-router-dom";
+import SEOHead from "@/components/SEOHead";
 
 export default function Legal() {
   const [searchParams] = useSearchParams();
   const page = searchParams.get("page") || "privacy";
 
+  const isPrivacy = page === "privacy";
+
+  const title = isPrivacy
+    ? "Privacy Policy | LexWed Legal Services"
+    : "Terms & Conditions | LexWed Legal Services";
+
+  const description = isPrivacy
+    ? "Read LexWed’s Privacy Policy to understand how we collect, use, and protect your personal information while providing legal services in India."
+    : "Review the Terms and Conditions governing the use of LexWed’s legal services for marriage registration and legal assistance in India.";
+
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title={title}
+        description={description}
+        canonical={`https://www.lexwed.com/legal?page=${page}`}
+      />
       <Navigation />
 
       <section className="pt-24 pb-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl font-bold text-[hsl(var(--primary))] mb-8 font-serif">
-            {page === "privacy" ? "Privacy Policy" : "Terms & Conditions"}
+          <h1 className="text-5xl font-bold text-[hsl(var(--primary))] mb-4 font-serif">
+            {isPrivacy
+              ? "Privacy Policy – LexWed Legal Services"
+              : "Terms & Conditions – LexWed Legal Services"}
           </h1>
+
+          <p className="text-gray-600 mb-8">
+            {isPrivacy
+              ? "This Privacy Policy explains how LexWed collects, uses, and safeguards personal information while providing legal services in India."
+              : "These Terms & Conditions govern the use of LexWed’s website and legal services for marriage registration and related matters in India."}
+          </p>
 
           <div className="prose max-w-none">
             <div className="text-[hsl(var(--muted-foreground))] leading-relaxed space-y-6">

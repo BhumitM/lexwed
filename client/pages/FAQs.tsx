@@ -119,9 +119,14 @@ export default function FAQs() {
     <div className="min-h-screen bg-white">
       <SEOHead
         title="FAQs - Marriage Registration & Legal Services | LexWed"
-        description="Frequently asked questions about marriage registration, court marriage, legal procedures, and services offered by LexWed."
-        keywords="frequently asked questions, marriage registration faq, court marriage questions, legal services faq"
+        description="Find answers to frequently asked questions about marriage registration, court marriage, Arya Samaj marriage, legal procedures, and services provided by LexWed. Clear guidance for couples in India."
+        keywords="LexWed FAQ, marriage registration questions, court marriage FAQ, Arya Samaj marriage, legal services India, marriage legalization"
         canonical="https://www.lexwed.com/faqs"
+        ogTitle="FAQs - LexWed Marriage Registration & Legal Services"
+        ogDescription="Get answers to common questions about marriage registration, legal processes, and services offered by LexWed. Trusted guidance for couples across India."
+        ogUrl="https://www.lexwed.com/faqs"
+        ogType="website"
+        twitterCard="summary_large_image"
       />
       <Navigation />
 

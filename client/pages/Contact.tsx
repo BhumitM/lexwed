@@ -58,10 +58,15 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="Contact LexWed - Get Legal Guidance for Marriage Registration"
-        description="Contact LexWed for legal guidance on marriage registration, court marriage, and related services. Available 24/7 across Delhi, Haryana, and Uttar Pradesh."
-        keywords="contact legal services, marriage registration inquiry, legal consultation, support contact"
+        title="Contact LexWed | Expert Legal Guidance for Marriage Registration"
+        description="Reach out to LexWed for trusted legal guidance on marriage registration, court marriage, and related services. Available 24/7 across Delhi, Haryana, and Uttar Pradesh."
+        keywords="LexWed contact, marriage legal services, court marriage inquiry, legal consultation, marriage registration support"
         canonical="https://www.lexwed.com/contact"
+        ogTitle="Contact LexWed - Expert Marriage Legal Services in India"
+        ogDescription="Connect with LexWed for professional legal guidance on marriage registration and legalization services. Fast response and trusted expertise since 2017."
+        ogUrl="https://www.lexwed.com/contact"
+        ogType="website"
+        twitterCard="summary_large_image"
       />
       <Navigation />
 

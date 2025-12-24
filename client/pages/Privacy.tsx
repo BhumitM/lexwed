@@ -5,12 +5,40 @@ import SEOHead from "@/components/SEOHead";
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-white">
-      <SEOHead
-        title="Privacy Policy - LexWed Legal Services"
-        description="LexWed's privacy policy compliant with Digital Personal Data Protection Act 2023. Learn how we protect your personal information and data."
-        keywords="privacy policy, data protection, DPDP Act, personal data, confidentiality"
-        canonical="https://www.lexwed.com/privacy-policy"
-      />
+      <>
+        <SEOHead
+          title="Privacy Policy | LexWed - Marriage Legal Services in India"
+          description="Read LexWed's Privacy Policy, compliant with the Digital Personal Data Protection Act 2023. Learn how we collect, use, and protect personal data for marriage registration and legal services."
+          keywords="LexWed privacy policy, data protection, DPDP Act, marriage registration, personal information, legal services India"
+          canonical="https://www.lexwed.com/privacy-policy"
+          ogTitle="Privacy Policy | LexWed - Trusted Marriage Legal Services"
+          ogDescription="Understand how LexWed safeguards your personal data while providing marriage registration and legal services. Compliant with DPDP Act 2023."
+          ogUrl="https://www.lexwed.com/privacy-policy"
+          ogType="website"
+          twitterCard="summary_large_image"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "PrivacyPolicy",
+              "name": "LexWed Privacy Policy",
+              "url": "https://www.lexwed.com/privacy-policy",
+              "datePublished": "2025-01-01",
+              "publisher": {
+                "@type": "Organization",
+                "name": "LexWed",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.lexwed.com/logo.png"
+                }
+              },
+              "description": "LexWed Privacy Policy explaining how personal data is collected, used, and protected in accordance with the DPDP Act 2023."
+            })
+          }}
+        />
+      </>
       <Navigation />
 
       {/* Hero */}

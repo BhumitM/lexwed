@@ -5,12 +5,31 @@ import SEOHead from "@/components/SEOHead";
 export default function Refund() {
   return (
     <div className="min-h-screen bg-white">
-      <SEOHead
-        title="Refund Policy - LexWed Legal Services"
-        description="Transparent refund policy for LexWed services. Understand our service delivery guarantee and refund terms."
-        keywords="refund policy, money back guarantee, service guarantee, refund terms"
-        canonical="https://www.lexwed.com/refund-policy"
-      />
+      <>
+        <SEOHead
+          title="Refund Policy | LexWed - Trusted Marriage Legal Services in India"
+          description="LexWed provides a clear and transparent refund policy for our legal services. Learn about non-refundable services, conditional refunds, deductions, and refund request process."
+          keywords="LexWed refund policy, money back guarantee, marriage legal services, court marriage refund, service refund terms"
+          canonical="https://www.lexwed.com/refund-policy"
+          ogTitle="Refund Policy | LexWed - Trusted Marriage Legal Services"
+          ogDescription="Understand LexWed's refund policy for legal services, including conditional refunds, deductions, and how to submit a refund request. Fair and transparent terms."
+          ogUrl="https://www.lexwed.com/refund-policy"
+          ogType="website"
+          twitterCard="summary_large_image"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "Refund Policy",
+              "url": "https://www.lexwed.com/refund-policy",
+              "description": "LexWed's Refund Policy explaining non-refundable services, conditional refunds, deductions, refund request process, and commitment to fair legal service."
+            })
+          }}
+        />
+      </>
       <Navigation />
 
       {/* Hero */}
