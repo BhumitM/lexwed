@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Home Page -->
   <url>
     <loc>https://www.lexwed.com/</loc>
@@ -7,7 +8,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  
+
   <!-- About Page -->
   <url>
     <loc>https://www.lexwed.com/about</loc>
@@ -15,7 +16,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
   <!-- Contact Page -->
   <url>
     <loc>https://www.lexwed.com/contact</loc>
@@ -23,7 +24,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
   <!-- FAQs Page -->
   <url>
     <loc>https://www.lexwed.com/faqs</loc>
@@ -31,7 +32,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
   <!-- Legal Page -->
   <url>
     <loc>https://www.lexwed.com/legal</loc>
@@ -39,7 +40,7 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
-  
+
   <!-- Privacy Policy -->
   <url>
     <loc>https://www.lexwed.com/privacy-policy</loc>
@@ -47,7 +48,7 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
-  
+
   <!-- Disclaimer -->
   <url>
     <loc>https://www.lexwed.com/disclaimer</loc>
@@ -55,7 +56,7 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
-  
+
   <!-- Refund Policy -->
   <url>
     <loc>https://www.lexwed.com/refund-policy</loc>
@@ -63,4 +64,5 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+
 </urlset>
